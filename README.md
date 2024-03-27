@@ -1,1 +1,1 @@
-# Lampe-du-g-nie
+# Lampe-du-génie
