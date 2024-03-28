@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 1920px;
 }
 
 h1{
@@ -23,7 +24,7 @@ h2{
 
 header{
     height: 338px;
-    width: 1920px;
+    max-width: 1920px;
     background-image: url(images/header05.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -36,8 +37,8 @@ main{
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1920px;
-    height: 950px;
+    max-width: 1920px;
+    max-height: 950px;
     -webkit-box-shadow: 0px 0px 0px 5px #99732e, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 0px 0px 0px 5px #99732e, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
 }
@@ -55,7 +56,7 @@ form{
 }
 
 .formulaire{
-    margin-left: 3rem;
+    padding-left: 3rem;
 }
 
 label{
@@ -63,7 +64,7 @@ label{
     color: rgb(255, 170, 0);
     text-shadow: 5px 0px 20px #00367d, 0px 5px 20px #4e0093, -5px 0px 20px #00367d, 0px -5px 20px #4e0093;
     font-family: 'New Walt Disney Font', sans-serif;
-    margin: 0 0.5rem;
+    padding: 0 0.5rem;
 }
 
 .img-lamp{
