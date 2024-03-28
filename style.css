@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 136px;
+    color: rgb(255, 170, 0);
+    padding-top: 80px;
+    text-align: center;
+    text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
+    font-family: 'New Walt Disney Font', sans-serif;
+}
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 170, 0);
+    text-shadow: 5px 0px 20px #00367d, 0px 5px 20px #4e0093, -5px 0px 20px #00367d, 0px -5px 20px #4e0093;
+    margin-bottom: 2rem;
+    font-family: 'New Walt Disney Font', sans-serif;
+}
+
+header{
+    height: 338px;
+    width: 1920px;
+    background-image: url(images/header05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #407bcb;
+}
+
+main{
+    background-image: url(images/Agrabah2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 950px;
+    -webkit-box-shadow: 0px 0px 0px 5px #99732e, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 0px 0px 5px #99732e, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.zone-form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3rem;
+}
+
+form{
+    margin-bottom: 2rem;
+}
+
+.formulaire{
+    margin-left: 3rem;
+}
+
+label{
+    font-size: 30px;
+    color: rgb(255, 170, 0);
+    text-shadow: 5px 0px 20px #00367d, 0px 5px 20px #4e0093, -5px 0px 20px #00367d, 0px -5px 20px #4e0093;
+    font-family: 'New Walt Disney Font', sans-serif;
+    margin: 0 0.5rem;
+}
+
+.img-lamp{
+    margin-top: 3rem;
+    transform: translateX(-150px);
+}
+
+.btn-send{
+    font-size: 30px;
+    color: rgb(255, 170, 0);
+    text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
+    font-family: 'New Walt Disney Font', sans-serif;
+    border-radius: 1rem;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    background-color: #13021f;
+    margin-left: 500px;
+}
+
+textarea{
+    font-size: 24px;
+    color: rgb(255, 170, 0);
+    font-family: 'New Walt Disney Font', sans-serif;
+    border-radius: 1rem;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    background-color: #13021f;
+}
+
+.name-mail{
+    display: flex;
+    flex-direction: row;
+}
+
+.area-text{
+    font-size: 24px;
+    color: rgb(255, 170, 0);
+    font-family: 'New Walt Disney Font', sans-serif;
+    border-radius: 1rem;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    background-color: #13021f;
+}
