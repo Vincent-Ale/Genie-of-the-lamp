@@ -112,3 +112,16 @@ textarea{
     padding: 0.5rem 1rem;
     background-color: #13021f;
 }
+
+.img-genie{
+    animation: boucle 5s linear infinite;
+}
+
+@keyframes boucle {
+    0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-30px);
+      }
+}
