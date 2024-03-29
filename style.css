@@ -4,20 +4,50 @@
     max-width: 1920px;
 }
 
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
 h1{
     font-size: 136px;
     color: rgb(255, 170, 0);
     text-align: center;
     text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
     font-family: 'New Walt Disney Font', sans-serif;
-    transform: translateX(-300px) translateY(-80px);
+}
+
+.head{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    animation: boucle3 3s linear infinite;
+    transform-origin: center;
+    z-index: 10;
+}
+
+@keyframes boucle3 {
+    0%, 100% {
+        transform: rotate(0deg) scale(1);
+      }
+      25% {
+        transform: rotate(-15deg) scale(1.2);
+      }
+      75% {
+        transform: rotate(15deg) scale(1);
+      }
 }
 
 .img-smoke{
+    position: absolute;
     width: 250px;
     height: 250px;
-    transform: translateY(100px);
     opacity: 0.6;
+    z-index: 9;
 }
 
 h2{
@@ -123,6 +153,9 @@ textarea{
     box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
     padding: 0.5rem 1rem;
     background-color: #13021f;
+    background-image: url(images/backg001.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .name-mail{
