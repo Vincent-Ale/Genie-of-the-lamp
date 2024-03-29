@@ -287,7 +287,6 @@ label{
 .btn-send{
     font-size: 48px;
     color: rgb(255, 170, 0);
-    text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
     font-family: 'New Walt Disney Font', sans-serif;
     border-radius: 1rem;
     -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
