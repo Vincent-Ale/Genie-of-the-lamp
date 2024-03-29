@@ -60,7 +60,7 @@ h2{
 }
 
 header{
-    height: 338px;
+    height: 420px;
     max-width: 1920px;
     background-image: url(images/header05.jpg);
     background-position: center;
@@ -188,3 +188,90 @@ textarea{
         filter: drop-shadow(5px 0px 10px #0056c6b3) drop-shadow(0px 5px 10px #6400bcb3) drop-shadow(-5px 0px 10px #0056c6b3) drop-shadow(0px -5px 10px #6400bcb3);
       }
 }
+
+
+/*#### Music ####*/
+
+/* Styles pour le lecteur audio */
+audio {
+    width: 300px; /* Largeur du lecteur audio */
+    margin: 20px 0; /* Marge autour du lecteur audio */
+    animation: boucle4 1s linear infinite;
+    margin-left: 2rem;
+  }
+
+  @keyframes boucle4 {
+    0%, 100% {
+        filter: drop-shadow(5px 0px 10px #0056c634) drop-shadow(0px 5px 10px #6400bc34) drop-shadow(-5px 0px 10px #0056c634) drop-shadow(0px -5px 10px #6400bc34);
+      }
+      50% {
+        filter: drop-shadow(5px 0px 10px #0056c6b3) drop-shadow(0px 5px 10px #6400bcb3) drop-shadow(-5px 0px 10px #0056c6b3) drop-shadow(0px -5px 10px #6400bcb3);
+      }
+}
+
+.music-display{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateY(-50px);
+}
+
+.play-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+  /* Styles pour les contrôles de lecture */
+  audio::-webkit-media-controls-panel {
+    background-color: #2d006dad; /* Couleur de fond des contrôles */
+    color: rgb(255, 170, 0); /* Couleur du texte des contrôles */
+    border-radius: 5px; /* Bordure arrondie des contrôles */
+  }
+
+.inst-play{
+    font-size: 56px;
+    color: rgb(255, 170, 0);
+    font-family: 'New Walt Disney Font', sans-serif;
+    transform: translateY(40px);
+    margin-left: 2rem;
+}
+
+.arrow-left{
+    width: 200px;
+    height: 154px;
+    animation: boucle5 1s linear infinite;
+}
+
+@keyframes boucle5 {
+    0%, 100% {
+        transform: scale(1);
+        filter: drop-shadow(5px 0px 10px #0056c634) drop-shadow(0px 5px 10px #6400bc34) drop-shadow(-5px 0px 10px #0056c634) drop-shadow(0px -5px 10px #6400bc34);
+      }
+      50% {
+        transform: scale(1.1);
+        filter: drop-shadow(5px 0px 10px #0056c6b3) drop-shadow(0px 5px 10px #6400bcb3) drop-shadow(-5px 0px 10px #0056c6b3) drop-shadow(0px -5px 10px #6400bcb3);
+      }
+}
+  
+  /* Styles pour le bouton lecture/pause */
+  audio::-webkit-media-controls-play-button {
+    background-color: rgb(255, 170, 0);
+    border-radius: 15rem;
+  }
+  
+  audio::-webkit-media-controls-pause-button {
+    background-color: rgb(255, 170, 0);
+    border-radius: 15rem;
+  }
+  
+  /* Style pour la barre de progression */
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    color: rgb(255, 170, 0); /* Couleur du texte de la barre de progression */
+  }
+  
+  audio::-webkit-media-controls-seek-back-button,
+  audio::-webkit-media-controls-seek-forward-button {
+    background-color: #5100c2ad; /* Couleur de fond des boutons de recherche */
+  }
