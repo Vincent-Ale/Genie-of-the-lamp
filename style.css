@@ -20,6 +20,7 @@ header{
 
 h1{
     font-size: 136px;
+    letter-spacing: 0.2rem;
     color: rgb(255, 170, 0);
     text-align: center;
     text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
@@ -225,6 +226,7 @@ main{
 
 h2{
     font-size: 80px;
+    letter-spacing: 0.2rem;
     text-align: center;
     color: rgb(255, 170, 0);
     text-shadow: 5px 0px 20px #00367d, 0px 5px 20px #4e0093, -5px 0px 20px #00367d, 0px -5px 20px #4e0093;
