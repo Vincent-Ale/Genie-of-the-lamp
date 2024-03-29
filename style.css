@@ -7,11 +7,16 @@
 h1{
     font-size: 136px;
     color: rgb(255, 170, 0);
-    padding-top: 40px;
     text-align: center;
     text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
     font-family: 'New Walt Disney Font', sans-serif;
-    transform: translateX(-140px);
+    transform: translateX(-300px) translateY(-80px);
+}
+
+.img-smoke{
+    width: 250px;
+    height: 250px;
+    transform: translateY(100px);
 }
 
 h2{
