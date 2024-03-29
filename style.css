@@ -4,6 +4,28 @@
     max-width: 1920px;
 }
 
+header{
+    height: 420px;
+    max-width: 1920px;
+    background-image: url(images/header05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #407bcb;
+}
+
+/*#################################################################################*/
+/*##################################### TITLE #####################################*/
+/*#################################################################################*/
+
+h1{
+    font-size: 136px;
+    color: rgb(255, 170, 0);
+    text-align: center;
+    text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
+    font-family: 'New Walt Disney Font', sans-serif;
+}
+
 .title{
     display: flex;
     flex-direction: row;
@@ -17,14 +39,6 @@
 .genie-head{
     position: absolute;
     left: 2%;
-}
-
-h1{
-    font-size: 136px;
-    color: rgb(255, 170, 0);
-    text-align: center;
-    text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
-    font-family: 'New Walt Disney Font', sans-serif;
 }
 
 .head{
@@ -57,147 +71,23 @@ h1{
     z-index: 9;
 }
 
-h2{
-    font-size: 80px;
-    text-align: center;
-    color: rgb(255, 170, 0);
-    text-shadow: 5px 0px 20px #00367d, 0px 5px 20px #4e0093, -5px 0px 20px #00367d, 0px -5px 20px #4e0093;
-    margin-bottom: 2rem;
-    font-family: 'New Walt Disney Font', sans-serif;
-}
-
-header{
-    height: 420px;
-    max-width: 1920px;
-    background-image: url(images/header05.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #407bcb;
-}
-
-main{
-    background-image: url(images/Agrabah2.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 1920px;
-    max-height: 950px;
-    -webkit-box-shadow: 0px 0px 0px 5px #99732e, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 0px 0px 5px #99732e, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(0,0,0,0);
-}
-
-.zone-form{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 3rem;
-}
-
-form{
-    margin-bottom: 2rem;
-}
-
-.formulaire{
-    padding-left: 3rem;
-}
-
-label{
-    font-size: 30px;
-    color: rgb(255, 170, 0);
-    text-shadow: 5px 0px 20px #00367d, 0px 5px 20px #4e0093, -5px 0px 20px #00367d, 0px -5px 20px #4e0093;
-    font-family: 'New Walt Disney Font', sans-serif;
-    padding: 0 0.5rem;
-}
-
-.img-lamp{
-    animation: boucle2 2s linear infinite;
+.carpet{
+    position: absolute;
+    top: 3%;
+    right: 2%;
     width: 300px;
-    height: 195px;
-    transform-origin: center;
+    height: 320px;
 }
+/*#################################################################################*/
+/*################################### TITLE END ###################################*/
+/*#################################################################################*/
 
 
-@keyframes boucle2 {
-    0%, 50%, 75%, 100% {
-        transform: translateX(-150px) rotate(0deg) scale(1);
-      }
-      10% {
-        transform: translateX(-150px) rotate(-5deg) scale(1.05);
-      }
-      15% {
-        transform: translateX(-150px) rotate(5deg) scale(1.05);
-        filter: drop-shadow(5px 0px 10px #0056c6b3) drop-shadow(0px 5px 10px #6400bcb3) drop-shadow(-5px 0px 10px #0056c6b3) drop-shadow(0px -5px 10px #6400bcb3);
-      }
-      20% {
-        transform: translateX(-150px) rotate(-5deg) scale(1.05);
-      }
-      25% {
-        transform: translateX(-150px) rotate(5deg) scale(1.05);
-      }
-}
-
-.btn-send{
-    font-size: 30px;
-    color: rgb(255, 170, 0);
-    text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
-    font-family: 'New Walt Disney Font', sans-serif;
-    border-radius: 1rem;
-    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
-    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
-    padding: 0.5rem 1rem;
-    background-color: #13021f;
-    margin-left: 500px;
-}
-
-textarea{
-    font-size: 24px;
-    color: rgb(255, 170, 0);
-    font-family: 'New Walt Disney Font', sans-serif;
-    border-radius: 1rem;
-    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
-    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
-    padding: 0.5rem 1rem;
-    background-color: #13021f;
-    background-image: url(images/backg001.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.name-mail{
-    display: flex;
-    flex-direction: row;
-}
-
-.area-text{
-    font-size: 24px;
-    color: rgb(255, 170, 0);
-    font-family: 'New Walt Disney Font', sans-serif;
-    border-radius: 1rem;
-    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
-    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
-    padding: 0.5rem 1rem;
-    background-color: #13021f;
-}
-
-.img-genie{
-    animation: boucle 5s linear infinite;
-}
-
-@keyframes boucle {
-    0%, 100% {
-        transform: translateY(0);
-        filter: drop-shadow(5px 0px 10px #0056c634) drop-shadow(0px 5px 10px #6400bc34) drop-shadow(-5px 0px 10px #0056c634) drop-shadow(0px -5px 10px #6400bc34);
-      }
-      50% {
-        transform: translateY(-30px);
-        filter: drop-shadow(5px 0px 10px #0056c6b3) drop-shadow(0px 5px 10px #6400bcb3) drop-shadow(-5px 0px 10px #0056c6b3) drop-shadow(0px -5px 10px #6400bcb3);
-      }
-}
 
 
-/*#### Music ####*/
+/*#################################################################################*/
+/*##################################### AUDIO #####################################*/
+/*#################################################################################*/
 
 /* Styles pour le lecteur audio */
 audio {
@@ -229,13 +119,6 @@ audio {
     align-items: center;
 }
 
-.carpet{
-    position: absolute;
-    top: 3%;
-    right: 2%;
-    width: 300px;
-    height: 320px;
-}
   
   /* Styles pour les contrôles de lecture */
   audio::-webkit-media-controls-panel {
@@ -301,3 +184,149 @@ audio {
   audio::-webkit-media-controls-seek-forward-button {
     background-color: #5100c2ad; /* Couleur de fond des boutons de recherche */
   }
+/*#################################################################################*/
+/*################################### AUDIO END ###################################*/
+/*#################################################################################*/
+
+
+
+
+/*#################################################################################*/
+/*##################################### MAIN ######################################*/
+/*#################################################################################*/
+
+main{
+    background-image: url(images/Agrabah2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    max-width: 1920px;
+    max-height: 950px;
+    border-top: 5px solid #99732e;
+    border-bottom: 5px solid #99732e;
+    box-shadow: inset 0 20px 30px 5px rgba(0, 0, 0, 0.5),
+                inset 0 -20px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 170, 0);
+    text-shadow: 5px 0px 20px #00367d, 0px 5px 20px #4e0093, -5px 0px 20px #00367d, 0px -5px 20px #4e0093;
+    margin-bottom: 2rem;
+    font-family: 'New Walt Disney Font', sans-serif;
+}
+
+
+.zone-form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3rem;
+}
+
+form{
+    margin-bottom: 2rem;
+}
+
+.formulaire{
+    padding-left: 3rem;
+}
+
+label{
+    font-size: 30px;
+    color: rgb(255, 170, 0);
+    text-shadow: 5px 0px 20px #00367d, 0px 5px 20px #4e0093, -5px 0px 20px #00367d, 0px -5px 20px #4e0093;
+    font-family: 'New Walt Disney Font', sans-serif;
+    padding: 0 0.5rem;
+}
+
+.img-lamp{
+    animation: boucle2 2s linear infinite;
+    width: 300px;
+    height: 195px;
+    transform-origin: center;
+}
+
+
+@keyframes boucle2 {
+    0%, 50%, 75%, 100% {
+        transform: translateX(-150px) rotate(0deg) scale(1);
+      }
+      10% {
+        transform: translateX(-150px) rotate(-5deg) scale(1.05);
+      }
+      15% {
+        transform: translateX(-150px) rotate(5deg) scale(1.05);
+        filter: drop-shadow(5px 0px 10px #0056c6b3) drop-shadow(0px 5px 10px #6400bcb3) drop-shadow(-5px 0px 10px #0056c6b3) drop-shadow(0px -5px 10px #6400bcb3);
+      }
+      20% {
+        transform: translateX(-150px) rotate(-5deg) scale(1.05);
+      }
+      25% {
+        transform: translateX(-150px) rotate(5deg) scale(1.05);
+      }
+}
+
+.btn-send{
+    font-size: 48px;
+    color: rgb(255, 170, 0);
+    text-shadow: 5px 0px 20px #006cfa, 0px 5px 20px #9a00fa, -5px 0px 20px #006cfa, 0px -5px 20px #9a00fa;
+    font-family: 'New Walt Disney Font', sans-serif;
+    border-radius: 1rem;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    background-color: #13021f;
+    margin-left: 500px;
+}
+
+textarea{
+    font-size: 24px;
+    color: rgb(255, 170, 0);
+    font-family: 'New Walt Disney Font', sans-serif;
+    border-radius: 1rem;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    background-color: #13021f;
+    background-image: url(images/backg001.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.name-mail{
+    display: flex;
+    flex-direction: row;
+}
+
+.area-text{
+    font-size: 24px;
+    color: rgb(255, 170, 0);
+    font-family: 'New Walt Disney Font', sans-serif;
+    border-radius: 1rem;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 5px 5px 15px 0px rgba(0,0,0,0);
+    padding: 0.5rem 1rem;
+    background-color: #13021f;
+}
+
+.img-genie{
+    animation: boucle 5s linear infinite;
+}
+
+@keyframes boucle {
+    0%, 100% {
+        transform: translateY(0);
+        filter: drop-shadow(5px 0px 10px #0056c634) drop-shadow(0px 5px 10px #6400bc34) drop-shadow(-5px 0px 10px #0056c634) drop-shadow(0px -5px 10px #6400bc34);
+      }
+      50% {
+        transform: translateY(-30px);
+        filter: drop-shadow(5px 0px 10px #0056c6b3) drop-shadow(0px 5px 10px #6400bcb3) drop-shadow(-5px 0px 10px #0056c6b3) drop-shadow(0px -5px 10px #6400bcb3);
+      }
+}
+/*#################################################################################*/
+/*################################### MAIN END ####################################*/
+/*#################################################################################*/
